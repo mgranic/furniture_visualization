@@ -7,63 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20BFB6282B03DEE400202A86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB6272B03DEE400202A86 /* AppDelegate.swift */; };
-		20BFB62A2B03DEE400202A86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB6292B03DEE400202A86 /* ContentView.swift */; };
-		20BFB62C2B03DEE400202A86 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB62B2B03DEE400202A86 /* Experience.rcproject */; };
-		20BFB62E2B03DEE800202A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BFB62D2B03DEE800202A86 /* Assets.xcassets */; };
-		20BFB6312B03DEE800202A86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BFB6302B03DEE800202A86 /* Preview Assets.xcassets */; };
-		20BFB63B2B03DEE900202A86 /* iOs_AR_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB63A2B03DEE900202A86 /* iOs_AR_appTests.swift */; };
-		20BFB6452B03DEE900202A86 /* iOs_AR_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB6442B03DEE900202A86 /* iOs_AR_appUITests.swift */; };
-		20BFB6472B03DEE900202A86 /* iOs_AR_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB6462B03DEE900202A86 /* iOs_AR_appUITestsLaunchTests.swift */; };
+		20BFB6602B03E20700202A86 /* iOS_furniture_ARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB65F2B03E20700202A86 /* iOS_furniture_ARApp.swift */; };
+		20BFB6622B03E20700202A86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB6612B03E20700202A86 /* ContentView.swift */; };
+		20BFB6642B03E20900202A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BFB6632B03E20900202A86 /* Assets.xcassets */; };
+		20BFB6672B03E20900202A86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BFB6662B03E20900202A86 /* Preview Assets.xcassets */; };
+		20BFB6712B03E20900202A86 /* iOS_furniture_ARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB6702B03E20900202A86 /* iOS_furniture_ARTests.swift */; };
+		20BFB67B2B03E20900202A86 /* iOS_furniture_ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB67A2B03E20900202A86 /* iOS_furniture_ARUITests.swift */; };
+		20BFB67D2B03E20900202A86 /* iOS_furniture_ARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB67C2B03E20900202A86 /* iOS_furniture_ARUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		20BFB6372B03DEE900202A86 /* PBXContainerItemProxy */ = {
+		20BFB66D2B03E20900202A86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 20BFB61C2B03DEE400202A86 /* Project object */;
+			containerPortal = 20BFB6542B03E20700202A86 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 20BFB6232B03DEE400202A86;
-			remoteInfo = iOs_AR_app;
+			remoteGlobalIDString = 20BFB65B2B03E20700202A86;
+			remoteInfo = "iOS-furniture-AR";
 		};
-		20BFB6412B03DEE900202A86 /* PBXContainerItemProxy */ = {
+		20BFB6772B03E20900202A86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 20BFB61C2B03DEE400202A86 /* Project object */;
+			containerPortal = 20BFB6542B03E20700202A86 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 20BFB6232B03DEE400202A86;
-			remoteInfo = iOs_AR_app;
+			remoteGlobalIDString = 20BFB65B2B03E20700202A86;
+			remoteInfo = "iOS-furniture-AR";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20BFB6242B03DEE400202A86 /* iOs_AR_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOs_AR_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		20BFB6272B03DEE400202A86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20BFB6292B03DEE400202A86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		20BFB62B2B03DEE400202A86 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
-		20BFB62D2B03DEE800202A86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		20BFB6302B03DEE800202A86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		20BFB6362B03DEE900202A86 /* iOs_AR_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOs_AR_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		20BFB63A2B03DEE900202A86 /* iOs_AR_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOs_AR_appTests.swift; sourceTree = "<group>"; };
-		20BFB6402B03DEE900202A86 /* iOs_AR_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOs_AR_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		20BFB6442B03DEE900202A86 /* iOs_AR_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOs_AR_appUITests.swift; sourceTree = "<group>"; };
-		20BFB6462B03DEE900202A86 /* iOs_AR_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOs_AR_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20BFB65C2B03E20700202A86 /* iOS-furniture-AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-furniture-AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BFB65F2B03E20700202A86 /* iOS_furniture_ARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_furniture_ARApp.swift; sourceTree = "<group>"; };
+		20BFB6612B03E20700202A86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20BFB6632B03E20900202A86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20BFB6662B03E20900202A86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20BFB66C2B03E20900202A86 /* iOS-furniture-ARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-furniture-ARTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BFB6702B03E20900202A86 /* iOS_furniture_ARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_furniture_ARTests.swift; sourceTree = "<group>"; };
+		20BFB6762B03E20900202A86 /* iOS-furniture-ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-furniture-ARUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BFB67A2B03E20900202A86 /* iOS_furniture_ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_furniture_ARUITests.swift; sourceTree = "<group>"; };
+		20BFB67C2B03E20900202A86 /* iOS_furniture_ARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_furniture_ARUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20BFB6212B03DEE400202A86 /* Frameworks */ = {
+		20BFB6592B03E20700202A86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20BFB6332B03DEE900202A86 /* Frameworks */ = {
+		20BFB6692B03E20900202A86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20BFB63D2B03DEE900202A86 /* Frameworks */ = {
+		20BFB6732B03E20900202A86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,143 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20BFB61B2B03DEE400202A86 = {
+		20BFB6532B03E20700202A86 = {
 			isa = PBXGroup;
 			children = (
-				20BFB6262B03DEE400202A86 /* iOs_AR_app */,
-				20BFB6392B03DEE900202A86 /* iOs_AR_appTests */,
-				20BFB6432B03DEE900202A86 /* iOs_AR_appUITests */,
-				20BFB6252B03DEE400202A86 /* Products */,
+				20BFB65E2B03E20700202A86 /* iOS-furniture-AR */,
+				20BFB66F2B03E20900202A86 /* iOS-furniture-ARTests */,
+				20BFB6792B03E20900202A86 /* iOS-furniture-ARUITests */,
+				20BFB65D2B03E20700202A86 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		20BFB6252B03DEE400202A86 /* Products */ = {
+		20BFB65D2B03E20700202A86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20BFB6242B03DEE400202A86 /* iOs_AR_app.app */,
-				20BFB6362B03DEE900202A86 /* iOs_AR_appTests.xctest */,
-				20BFB6402B03DEE900202A86 /* iOs_AR_appUITests.xctest */,
+				20BFB65C2B03E20700202A86 /* iOS-furniture-AR.app */,
+				20BFB66C2B03E20900202A86 /* iOS-furniture-ARTests.xctest */,
+				20BFB6762B03E20900202A86 /* iOS-furniture-ARUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20BFB6262B03DEE400202A86 /* iOs_AR_app */ = {
+		20BFB65E2B03E20700202A86 /* iOS-furniture-AR */ = {
 			isa = PBXGroup;
 			children = (
-				20BFB6272B03DEE400202A86 /* AppDelegate.swift */,
-				20BFB6292B03DEE400202A86 /* ContentView.swift */,
-				20BFB62B2B03DEE400202A86 /* Experience.rcproject */,
-				20BFB62D2B03DEE800202A86 /* Assets.xcassets */,
-				20BFB62F2B03DEE800202A86 /* Preview Content */,
+				20BFB65F2B03E20700202A86 /* iOS_furniture_ARApp.swift */,
+				20BFB6612B03E20700202A86 /* ContentView.swift */,
+				20BFB6632B03E20900202A86 /* Assets.xcassets */,
+				20BFB6652B03E20900202A86 /* Preview Content */,
 			);
-			path = iOs_AR_app;
+			path = "iOS-furniture-AR";
 			sourceTree = "<group>";
 		};
-		20BFB62F2B03DEE800202A86 /* Preview Content */ = {
+		20BFB6652B03E20900202A86 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				20BFB6302B03DEE800202A86 /* Preview Assets.xcassets */,
+				20BFB6662B03E20900202A86 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		20BFB6392B03DEE900202A86 /* iOs_AR_appTests */ = {
+		20BFB66F2B03E20900202A86 /* iOS-furniture-ARTests */ = {
 			isa = PBXGroup;
 			children = (
-				20BFB63A2B03DEE900202A86 /* iOs_AR_appTests.swift */,
+				20BFB6702B03E20900202A86 /* iOS_furniture_ARTests.swift */,
 			);
-			path = iOs_AR_appTests;
+			path = "iOS-furniture-ARTests";
 			sourceTree = "<group>";
 		};
-		20BFB6432B03DEE900202A86 /* iOs_AR_appUITests */ = {
+		20BFB6792B03E20900202A86 /* iOS-furniture-ARUITests */ = {
 			isa = PBXGroup;
 			children = (
-				20BFB6442B03DEE900202A86 /* iOs_AR_appUITests.swift */,
-				20BFB6462B03DEE900202A86 /* iOs_AR_appUITestsLaunchTests.swift */,
+				20BFB67A2B03E20900202A86 /* iOS_furniture_ARUITests.swift */,
+				20BFB67C2B03E20900202A86 /* iOS_furniture_ARUITestsLaunchTests.swift */,
 			);
-			path = iOs_AR_appUITests;
+			path = "iOS-furniture-ARUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20BFB6232B03DEE400202A86 /* iOs_AR_app */ = {
+		20BFB65B2B03E20700202A86 /* iOS-furniture-AR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20BFB64A2B03DEE900202A86 /* Build configuration list for PBXNativeTarget "iOs_AR_app" */;
+			buildConfigurationList = 20BFB6802B03E20900202A86 /* Build configuration list for PBXNativeTarget "iOS-furniture-AR" */;
 			buildPhases = (
-				20BFB6202B03DEE400202A86 /* Sources */,
-				20BFB6212B03DEE400202A86 /* Frameworks */,
-				20BFB6222B03DEE400202A86 /* Resources */,
+				20BFB6582B03E20700202A86 /* Sources */,
+				20BFB6592B03E20700202A86 /* Frameworks */,
+				20BFB65A2B03E20700202A86 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iOs_AR_app;
-			productName = iOs_AR_app;
-			productReference = 20BFB6242B03DEE400202A86 /* iOs_AR_app.app */;
+			name = "iOS-furniture-AR";
+			productName = "iOS-furniture-AR";
+			productReference = 20BFB65C2B03E20700202A86 /* iOS-furniture-AR.app */;
 			productType = "com.apple.product-type.application";
 		};
-		20BFB6352B03DEE900202A86 /* iOs_AR_appTests */ = {
+		20BFB66B2B03E20900202A86 /* iOS-furniture-ARTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20BFB64D2B03DEE900202A86 /* Build configuration list for PBXNativeTarget "iOs_AR_appTests" */;
+			buildConfigurationList = 20BFB6832B03E20900202A86 /* Build configuration list for PBXNativeTarget "iOS-furniture-ARTests" */;
 			buildPhases = (
-				20BFB6322B03DEE900202A86 /* Sources */,
-				20BFB6332B03DEE900202A86 /* Frameworks */,
-				20BFB6342B03DEE900202A86 /* Resources */,
+				20BFB6682B03E20900202A86 /* Sources */,
+				20BFB6692B03E20900202A86 /* Frameworks */,
+				20BFB66A2B03E20900202A86 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				20BFB6382B03DEE900202A86 /* PBXTargetDependency */,
+				20BFB66E2B03E20900202A86 /* PBXTargetDependency */,
 			);
-			name = iOs_AR_appTests;
-			productName = iOs_AR_appTests;
-			productReference = 20BFB6362B03DEE900202A86 /* iOs_AR_appTests.xctest */;
+			name = "iOS-furniture-ARTests";
+			productName = "iOS-furniture-ARTests";
+			productReference = 20BFB66C2B03E20900202A86 /* iOS-furniture-ARTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		20BFB63F2B03DEE900202A86 /* iOs_AR_appUITests */ = {
+		20BFB6752B03E20900202A86 /* iOS-furniture-ARUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20BFB6502B03DEE900202A86 /* Build configuration list for PBXNativeTarget "iOs_AR_appUITests" */;
+			buildConfigurationList = 20BFB6862B03E20900202A86 /* Build configuration list for PBXNativeTarget "iOS-furniture-ARUITests" */;
 			buildPhases = (
-				20BFB63C2B03DEE900202A86 /* Sources */,
-				20BFB63D2B03DEE900202A86 /* Frameworks */,
-				20BFB63E2B03DEE900202A86 /* Resources */,
+				20BFB6722B03E20900202A86 /* Sources */,
+				20BFB6732B03E20900202A86 /* Frameworks */,
+				20BFB6742B03E20900202A86 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				20BFB6422B03DEE900202A86 /* PBXTargetDependency */,
+				20BFB6782B03E20900202A86 /* PBXTargetDependency */,
 			);
-			name = iOs_AR_appUITests;
-			productName = iOs_AR_appUITests;
-			productReference = 20BFB6402B03DEE900202A86 /* iOs_AR_appUITests.xctest */;
+			name = "iOS-furniture-ARUITests";
+			productName = "iOS-furniture-ARUITests";
+			productReference = 20BFB6762B03E20900202A86 /* iOS-furniture-ARUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		20BFB61C2B03DEE400202A86 /* Project object */ = {
+		20BFB6542B03E20700202A86 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					20BFB6232B03DEE400202A86 = {
+					20BFB65B2B03E20700202A86 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					20BFB6352B03DEE900202A86 = {
+					20BFB66B2B03E20900202A86 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 20BFB6232B03DEE400202A86;
+						TestTargetID = 20BFB65B2B03E20700202A86;
 					};
-					20BFB63F2B03DEE900202A86 = {
+					20BFB6752B03E20900202A86 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 20BFB6232B03DEE400202A86;
+						TestTargetID = 20BFB65B2B03E20700202A86;
 					};
 				};
 			};
-			buildConfigurationList = 20BFB61F2B03DEE400202A86 /* Build configuration list for PBXProject "iOs_AR_app" */;
+			buildConfigurationList = 20BFB6572B03E20700202A86 /* Build configuration list for PBXProject "iOS-furniture-AR" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 20BFB61B2B03DEE400202A86;
-			productRefGroup = 20BFB6252B03DEE400202A86 /* Products */;
+			mainGroup = 20BFB6532B03E20700202A86;
+			productRefGroup = 20BFB65D2B03E20700202A86 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20BFB6232B03DEE400202A86 /* iOs_AR_app */,
-				20BFB6352B03DEE900202A86 /* iOs_AR_appTests */,
-				20BFB63F2B03DEE900202A86 /* iOs_AR_appUITests */,
+				20BFB65B2B03E20700202A86 /* iOS-furniture-AR */,
+				20BFB66B2B03E20900202A86 /* iOS-furniture-ARTests */,
+				20BFB6752B03E20900202A86 /* iOS-furniture-ARUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		20BFB6222B03DEE400202A86 /* Resources */ = {
+		20BFB65A2B03E20700202A86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BFB6312B03DEE800202A86 /* Preview Assets.xcassets in Resources */,
-				20BFB62E2B03DEE800202A86 /* Assets.xcassets in Resources */,
+				20BFB6672B03E20900202A86 /* Preview Assets.xcassets in Resources */,
+				20BFB6642B03E20900202A86 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20BFB6342B03DEE900202A86 /* Resources */ = {
+		20BFB66A2B03E20900202A86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20BFB63E2B03DEE900202A86 /* Resources */ = {
+		20BFB6742B03E20900202A86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,50 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20BFB6202B03DEE400202A86 /* Sources */ = {
+		20BFB6582B03E20700202A86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BFB62A2B03DEE400202A86 /* ContentView.swift in Sources */,
-				20BFB6282B03DEE400202A86 /* AppDelegate.swift in Sources */,
-				20BFB62C2B03DEE400202A86 /* Experience.rcproject in Sources */,
+				20BFB6622B03E20700202A86 /* ContentView.swift in Sources */,
+				20BFB6602B03E20700202A86 /* iOS_furniture_ARApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20BFB6322B03DEE900202A86 /* Sources */ = {
+		20BFB6682B03E20900202A86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BFB63B2B03DEE900202A86 /* iOs_AR_appTests.swift in Sources */,
+				20BFB6712B03E20900202A86 /* iOS_furniture_ARTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20BFB63C2B03DEE900202A86 /* Sources */ = {
+		20BFB6722B03E20900202A86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BFB6452B03DEE900202A86 /* iOs_AR_appUITests.swift in Sources */,
-				20BFB6472B03DEE900202A86 /* iOs_AR_appUITestsLaunchTests.swift in Sources */,
+				20BFB67D2B03E20900202A86 /* iOS_furniture_ARUITestsLaunchTests.swift in Sources */,
+				20BFB67B2B03E20900202A86 /* iOS_furniture_ARUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		20BFB6382B03DEE900202A86 /* PBXTargetDependency */ = {
+		20BFB66E2B03E20900202A86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 20BFB6232B03DEE400202A86 /* iOs_AR_app */;
-			targetProxy = 20BFB6372B03DEE900202A86 /* PBXContainerItemProxy */;
+			target = 20BFB65B2B03E20700202A86 /* iOS-furniture-AR */;
+			targetProxy = 20BFB66D2B03E20900202A86 /* PBXContainerItemProxy */;
 		};
-		20BFB6422B03DEE900202A86 /* PBXTargetDependency */ = {
+		20BFB6782B03E20900202A86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 20BFB6232B03DEE400202A86 /* iOs_AR_app */;
-			targetProxy = 20BFB6412B03DEE900202A86 /* PBXContainerItemProxy */;
+			target = 20BFB65B2B03E20700202A86 /* iOS-furniture-AR */;
+			targetProxy = 20BFB6772B03E20900202A86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		20BFB6482B03DEE900202A86 /* Debug */ = {
+		20BFB67E2B03E20900202A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		20BFB6492B03DEE900202A86 /* Release */ = {
+		20BFB67F2B03E20900202A86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -413,22 +409,20 @@
 			};
 			name = Release;
 		};
-		20BFB64B2B03DEE900202A86 /* Debug */ = {
+		20BFB6812B03E20900202A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOs_AR_app/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-furniture-AR/Preview Content\"";
 				DEVELOPMENT_TEAM = 6LP5U8F7VW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -436,7 +430,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kingoapps.iOs-AR-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kingoapps.iOS-furniture-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -444,22 +438,20 @@
 			};
 			name = Debug;
 		};
-		20BFB64C2B03DEE900202A86 /* Release */ = {
+		20BFB6822B03E20900202A86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOs_AR_app/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-furniture-AR/Preview Content\"";
 				DEVELOPMENT_TEAM = 6LP5U8F7VW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kingoapps.iOs-AR-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kingoapps.iOS-furniture-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -475,7 +467,7 @@
 			};
 			name = Release;
 		};
-		20BFB64E2B03DEE900202A86 /* Debug */ = {
+		20BFB6842B03E20900202A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -486,16 +478,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kingoapps.iOs-AR-appTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kingoapps.iOS-furniture-ARTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOs_AR_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOs_AR_app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-furniture-AR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-furniture-AR";
 			};
 			name = Debug;
 		};
-		20BFB64F2B03DEE900202A86 /* Release */ = {
+		20BFB6852B03E20900202A86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -506,16 +498,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kingoapps.iOs-AR-appTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kingoapps.iOS-furniture-ARTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOs_AR_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOs_AR_app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-furniture-AR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-furniture-AR";
 			};
 			name = Release;
 		};
-		20BFB6512B03DEE900202A86 /* Debug */ = {
+		20BFB6872B03E20900202A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -524,16 +516,16 @@
 				DEVELOPMENT_TEAM = 6LP5U8F7VW;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kingoapps.iOs-AR-appUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kingoapps.iOS-furniture-ARUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iOs_AR_app;
+				TEST_TARGET_NAME = "iOS-furniture-AR";
 			};
 			name = Debug;
 		};
-		20BFB6522B03DEE900202A86 /* Release */ = {
+		20BFB6882B03E20900202A86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -542,55 +534,55 @@
 				DEVELOPMENT_TEAM = 6LP5U8F7VW;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kingoapps.iOs-AR-appUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kingoapps.iOS-furniture-ARUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iOs_AR_app;
+				TEST_TARGET_NAME = "iOS-furniture-AR";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20BFB61F2B03DEE400202A86 /* Build configuration list for PBXProject "iOs_AR_app" */ = {
+		20BFB6572B03E20700202A86 /* Build configuration list for PBXProject "iOS-furniture-AR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20BFB6482B03DEE900202A86 /* Debug */,
-				20BFB6492B03DEE900202A86 /* Release */,
+				20BFB67E2B03E20900202A86 /* Debug */,
+				20BFB67F2B03E20900202A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20BFB64A2B03DEE900202A86 /* Build configuration list for PBXNativeTarget "iOs_AR_app" */ = {
+		20BFB6802B03E20900202A86 /* Build configuration list for PBXNativeTarget "iOS-furniture-AR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20BFB64B2B03DEE900202A86 /* Debug */,
-				20BFB64C2B03DEE900202A86 /* Release */,
+				20BFB6812B03E20900202A86 /* Debug */,
+				20BFB6822B03E20900202A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20BFB64D2B03DEE900202A86 /* Build configuration list for PBXNativeTarget "iOs_AR_appTests" */ = {
+		20BFB6832B03E20900202A86 /* Build configuration list for PBXNativeTarget "iOS-furniture-ARTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20BFB64E2B03DEE900202A86 /* Debug */,
-				20BFB64F2B03DEE900202A86 /* Release */,
+				20BFB6842B03E20900202A86 /* Debug */,
+				20BFB6852B03E20900202A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20BFB6502B03DEE900202A86 /* Build configuration list for PBXNativeTarget "iOs_AR_appUITests" */ = {
+		20BFB6862B03E20900202A86 /* Build configuration list for PBXNativeTarget "iOS-furniture-ARUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20BFB6512B03DEE900202A86 /* Debug */,
-				20BFB6522B03DEE900202A86 /* Release */,
+				20BFB6872B03E20900202A86 /* Debug */,
+				20BFB6882B03E20900202A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 20BFB61C2B03DEE400202A86 /* Project object */;
+	rootObject = 20BFB6542B03E20700202A86 /* Project object */;
 }

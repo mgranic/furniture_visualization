@@ -1,13 +1,13 @@
 //
-//  iOs_AR_appUITests.swift
-//  iOs_AR_appUITests
+//  iOS_furniture_ARUITests.swift
+//  iOS-furniture-ARUITests
 //
 //  Created by Mate Granic on 14.11.2023..
 //
 
 import XCTest
 
-final class iOs_AR_appUITests: XCTestCase {
+final class iOS_furniture_ARUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

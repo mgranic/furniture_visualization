@@ -1,13 +1,13 @@
 //
-//  iOs_AR_appUITestsLaunchTests.swift
-//  iOs_AR_appUITests
+//  iOS_furniture_ARUITestsLaunchTests.swift
+//  iOS-furniture-ARUITests
 //
 //  Created by Mate Granic on 14.11.2023..
 //
 
 import XCTest
 
-final class iOs_AR_appUITestsLaunchTests: XCTestCase {
+final class iOS_furniture_ARUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
