@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20A077E92B0A624300BDAD59 /* ArVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A077E82B0A624300BDAD59 /* ArVisualizationView.swift */; };
+		20A077EB2B0A63DC00BDAD59 /* CustomArView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A077EA2B0A63DC00BDAD59 /* CustomArView.swift */; };
+		20A077ED2B0A65E300BDAD59 /* CustomArViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A077EC2B0A65E300BDAD59 /* CustomArViewRepresentable.swift */; };
 		20BFB6602B03E20700202A86 /* iOS_furniture_ARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB65F2B03E20700202A86 /* iOS_furniture_ARApp.swift */; };
 		20BFB6622B03E20700202A86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB6612B03E20700202A86 /* ContentView.swift */; };
 		20BFB6642B03E20900202A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BFB6632B03E20900202A86 /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20A077E82B0A624300BDAD59 /* ArVisualizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArVisualizationView.swift; sourceTree = "<group>"; };
+		20A077EA2B0A63DC00BDAD59 /* CustomArView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomArView.swift; sourceTree = "<group>"; };
+		20A077EC2B0A65E300BDAD59 /* CustomArViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomArViewRepresentable.swift; sourceTree = "<group>"; };
 		20BFB65C2B03E20700202A86 /* iOS-furniture-AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-furniture-AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20BFB65F2B03E20700202A86 /* iOS_furniture_ARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_furniture_ARApp.swift; sourceTree = "<group>"; };
 		20BFB6612B03E20700202A86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +77,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20A077E72B0A620300BDAD59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20A077EE2B0A677D00BDAD59 /* ARView */,
+				20BFB6612B03E20700202A86 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20A077EE2B0A677D00BDAD59 /* ARView */ = {
+			isa = PBXGroup;
+			children = (
+				20A077EC2B0A65E300BDAD59 /* CustomArViewRepresentable.swift */,
+				20A077E82B0A624300BDAD59 /* ArVisualizationView.swift */,
+				20A077EA2B0A63DC00BDAD59 /* CustomArView.swift */,
+			);
+			path = ARView;
+			sourceTree = "<group>";
+		};
 		20BFB6532B03E20700202A86 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +119,8 @@
 		20BFB65E2B03E20700202A86 /* iOS-furniture-AR */ = {
 			isa = PBXGroup;
 			children = (
+				20A077E72B0A620300BDAD59 /* View */,
 				20BFB65F2B03E20700202A86 /* iOS_furniture_ARApp.swift */,
-				20BFB6612B03E20700202A86 /* ContentView.swift */,
 				20BFB6632B03E20900202A86 /* Assets.xcassets */,
 				20BFB6652B03E20900202A86 /* Preview Content */,
 			);
@@ -258,6 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				20BFB6622B03E20700202A86 /* ContentView.swift in Sources */,
+				20A077ED2B0A65E300BDAD59 /* CustomArViewRepresentable.swift in Sources */,
+				20A077E92B0A624300BDAD59 /* ArVisualizationView.swift in Sources */,
+				20A077EB2B0A63DC00BDAD59 /* CustomArView.swift in Sources */,
 				20BFB6602B03E20700202A86 /* iOS_furniture_ARApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +448,7 @@
 				DEVELOPMENT_TEAM = 6LP5U8F7VW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use camera for object visualization";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +478,7 @@
 				DEVELOPMENT_TEAM = 6LP5U8F7VW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use camera for object visualization";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
