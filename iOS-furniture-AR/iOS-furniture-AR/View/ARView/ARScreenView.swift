@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct ArVisualizationView: View {
+struct ARScreenView: View {
     var body: some View {
-        CusomArViewRepresentable()
+        ARViewRepresentable()
             //.ignoresSafeArea()
     }
 }
 
 struct ArVisualizationView_Previews: PreviewProvider {
     static var previews: some View {
-        ArVisualizationView()
+        ARScreenView()
     }
 }

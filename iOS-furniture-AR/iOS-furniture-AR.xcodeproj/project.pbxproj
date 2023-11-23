@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20A077E92B0A624300BDAD59 /* ArVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A077E82B0A624300BDAD59 /* ArVisualizationView.swift */; };
-		20A077EB2B0A63DC00BDAD59 /* CustomArView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A077EA2B0A63DC00BDAD59 /* CustomArView.swift */; };
-		20A077ED2B0A65E300BDAD59 /* CustomArViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A077EC2B0A65E300BDAD59 /* CustomArViewRepresentable.swift */; };
+		20A077E92B0A624300BDAD59 /* ARScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A077E82B0A624300BDAD59 /* ARScreenView.swift */; };
+		20A077EB2B0A63DC00BDAD59 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A077EA2B0A63DC00BDAD59 /* CustomARView.swift */; };
+		20A077ED2B0A65E300BDAD59 /* ARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A077EC2B0A65E300BDAD59 /* ARViewRepresentable.swift */; };
 		20BFB6602B03E20700202A86 /* iOS_furniture_ARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB65F2B03E20700202A86 /* iOS_furniture_ARApp.swift */; };
 		20BFB6622B03E20700202A86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BFB6612B03E20700202A86 /* ContentView.swift */; };
 		20BFB6642B03E20900202A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BFB6632B03E20900202A86 /* Assets.xcassets */; };
@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20A077E82B0A624300BDAD59 /* ArVisualizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArVisualizationView.swift; sourceTree = "<group>"; };
-		20A077EA2B0A63DC00BDAD59 /* CustomArView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomArView.swift; sourceTree = "<group>"; };
-		20A077EC2B0A65E300BDAD59 /* CustomArViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomArViewRepresentable.swift; sourceTree = "<group>"; };
+		20A077E82B0A624300BDAD59 /* ARScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScreenView.swift; sourceTree = "<group>"; };
+		20A077EA2B0A63DC00BDAD59 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		20A077EC2B0A65E300BDAD59 /* ARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewRepresentable.swift; sourceTree = "<group>"; };
 		20BFB65C2B03E20700202A86 /* iOS-furniture-AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-furniture-AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20BFB65F2B03E20700202A86 /* iOS_furniture_ARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_furniture_ARApp.swift; sourceTree = "<group>"; };
 		20BFB6612B03E20700202A86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		205D775A2B0F69080010F1D6 /* ARViewHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				20A077EA2B0A63DC00BDAD59 /* CustomARView.swift */,
+				20A077EC2B0A65E300BDAD59 /* ARViewRepresentable.swift */,
+			);
+			path = ARViewHelpers;
+			sourceTree = "<group>";
+		};
 		20A077E72B0A620300BDAD59 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,9 +98,8 @@
 		20A077EE2B0A677D00BDAD59 /* ARView */ = {
 			isa = PBXGroup;
 			children = (
-				20A077EC2B0A65E300BDAD59 /* CustomArViewRepresentable.swift */,
-				20A077E82B0A624300BDAD59 /* ArVisualizationView.swift */,
-				20A077EA2B0A63DC00BDAD59 /* CustomArView.swift */,
+				205D775A2B0F69080010F1D6 /* ARViewHelpers */,
+				20A077E82B0A624300BDAD59 /* ARScreenView.swift */,
 			);
 			path = ARView;
 			sourceTree = "<group>";
@@ -283,9 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				20BFB6622B03E20700202A86 /* ContentView.swift in Sources */,
-				20A077ED2B0A65E300BDAD59 /* CustomArViewRepresentable.swift in Sources */,
-				20A077E92B0A624300BDAD59 /* ArVisualizationView.swift in Sources */,
-				20A077EB2B0A63DC00BDAD59 /* CustomArView.swift in Sources */,
+				20A077ED2B0A65E300BDAD59 /* ARViewRepresentable.swift in Sources */,
+				20A077E92B0A624300BDAD59 /* ARScreenView.swift in Sources */,
+				20A077EB2B0A63DC00BDAD59 /* CustomARView.swift in Sources */,
 				20BFB6602B03E20700202A86 /* iOS_furniture_ARApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

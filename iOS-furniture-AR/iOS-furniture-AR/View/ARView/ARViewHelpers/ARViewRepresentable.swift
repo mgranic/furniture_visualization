@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct CusomArViewRepresentable: UIViewRepresentable {
+struct ARViewRepresentable: UIViewRepresentable {
     func makeUIView(context: Context) -> some UIView {
-        return CusomArView()
+        return CustomARView()
     }
     
     func updateUIView(_ uiView: UIViewType, context: Context) {

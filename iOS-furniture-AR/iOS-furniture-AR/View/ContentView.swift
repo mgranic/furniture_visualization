@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             NavigationStack {
-                NavigationLink(destination: ArVisualizationView()) {
+                NavigationLink(destination: ARScreenView()) {
                     Text("Visualization screen")
                 }
             }
