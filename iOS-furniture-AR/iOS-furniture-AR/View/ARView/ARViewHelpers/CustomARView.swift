@@ -37,7 +37,7 @@ class CustomARView: ARView {
         let material = SimpleMaterial(color: .blue, isMetallic: false)
         let entity = ModelEntity(mesh: block, materials: [material])
         
-        anchorGlobal = AnchorEntity(plane: .horizontal)
+        anchorGlobal = AnchorEntity(plane: .any)
         anchorGlobal!.addChild(entity)
         
         scene.addAnchor(anchorGlobal!)
@@ -52,6 +52,18 @@ class CustomARView: ARView {
         if let existingEntity = anchorGlobal {
             scene.removeAnchor(existingEntity)
         }
+        
+        let block = MeshResource.generateBox(size: 1)
+        let material = SimpleMaterial(color: .blue, isMetallic: false)
+        let entity = ModelEntity(mesh: block, materials: [material])
+
+        anchorGlobal!.position.x = converted3DPoint.x
+        anchorGlobal!.position.y = converted3DPoint.y
+        anchorGlobal!.position.z = converted3DPoint.z
+        anchorGlobal!.addChild(entity)
+
+        scene.addAnchor(anchorGlobal!)
+    
 
         //if let hitTest = scene.hitTest(touchLocation, types: [.existingPlane]) {
         //    let hitTestResult = hitTest.first!
