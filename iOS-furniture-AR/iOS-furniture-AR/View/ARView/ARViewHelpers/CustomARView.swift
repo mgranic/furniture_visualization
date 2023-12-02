@@ -33,13 +33,16 @@ class CustomARView: ARView {
     }
     
     func placeEntityIntoScene() {
+        // create 3D model
         let block = MeshResource.generateBox(size: 1)
         let material = SimpleMaterial(color: .blue, isMetallic: false)
         let entity = ModelEntity(mesh: block, materials: [material])
         
+        // create anchor
         anchorGlobal = AnchorEntity(plane: .any)
         anchorGlobal!.addChild(entity)
         
+        // add anchor to the scene
         scene.addAnchor(anchorGlobal!)
     }
     
