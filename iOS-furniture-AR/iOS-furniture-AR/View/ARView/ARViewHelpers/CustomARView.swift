@@ -30,10 +30,10 @@ class CustomARView: ARView {
         addGestureRecognizer(tapGestureRecognizer)
         
         
-        placeEntityIntoScene(at: nil)
+        placeEntityIntoScene()
     }
     
-    func placeEntityIntoScene(at position: SCNVector3?) {
+    func placeEntityIntoScene(at position: SCNVector3? = nil) {
         // create 3D model
         //let box = MeshResource.generateBox(size: 0.1)
         let sphere = MeshResource.generateSphere(radius: 0.1)
