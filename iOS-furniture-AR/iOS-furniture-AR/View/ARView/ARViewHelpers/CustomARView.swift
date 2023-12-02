@@ -17,9 +17,6 @@ class CustomARView: ARView {
     required init(frame frameRect: CGRect) {
         self.frameRectGlobal = frameRect
         super.init(frame: frameRect)
-        
-        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleScreenTap))
-        addGestureRecognizer(tapGestureRecognizer)
     }
     
     dynamic required init?(coder decoder: NSCoder) {
@@ -29,17 +26,31 @@ class CustomARView: ARView {
     convenience init() {
         self.init(frame: UIScreen.main.bounds)
         
-        placeEntityIntoScene()
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleScreenTap))
+        addGestureRecognizer(tapGestureRecognizer)
+        
+        
+        placeEntityIntoScene(at: nil)
     }
     
-    func placeEntityIntoScene() {
+    func placeEntityIntoScene(at position: SCNVector3?) {
         // create 3D model
-        let block = MeshResource.generateBox(size: 1)
-        let material = SimpleMaterial(color: .blue, isMetallic: false)
-        let entity = ModelEntity(mesh: block, materials: [material])
+        //let box = MeshResource.generateBox(size: 0.1)
+        let sphere = MeshResource.generateSphere(radius: 0.1)
+        let material = SimpleMaterial(color: .red, isMetallic: true)
+        let entity = ModelEntity(mesh: sphere, materials: [material])
         
         // create anchor
         anchorGlobal = AnchorEntity(plane: .any)
+        
+        // if position ins specified place the anchor at speciffic position
+        if let anchorPos = position {
+            anchorGlobal!.position.x = anchorPos.x
+            anchorGlobal!.position.y = anchorPos.y
+            anchorGlobal!.position.z = anchorPos.z
+        }
+        
+        // place entity at the specified anchor
         anchorGlobal!.addChild(entity)
         
         // add anchor to the scene
@@ -56,44 +67,23 @@ class CustomARView: ARView {
             scene.removeAnchor(existingEntity)
         }
         
-        let block = MeshResource.generateBox(size: 1)
-        let material = SimpleMaterial(color: .blue, isMetallic: false)
-        let entity = ModelEntity(mesh: block, materials: [material])
+        placeEntityIntoScene(at: converted3DPoint)
+        
+        ////let box = MeshResource.generateBox(size: 0.1)
+        //let sphere = MeshResource.generateSphere(radius: 0.1)
+        //let material = SimpleMaterial(color: .blue, isMetallic: false)
+        //let entity = ModelEntity(mesh: sphere, materials: [material])
 
-        anchorGlobal!.position.x = converted3DPoint.x
-        anchorGlobal!.position.y = converted3DPoint.y
-        anchorGlobal!.position.z = converted3DPoint.z
-        anchorGlobal!.addChild(entity)
+        //anchorGlobal!.position.x = converted3DPoint.x
+        //anchorGlobal!.position.y = converted3DPoint.y
+        //anchorGlobal!.position.z = converted3DPoint.z
+        //anchorGlobal!.addChild(entity)
 
-        scene.addAnchor(anchorGlobal!)
-    
-
-        //if let hitTest = scene.hitTest(touchLocation, types: [.existingPlane]) {
-        //    let hitTestResult = hitTest.first!
-
-        //    // Remove the existing entity if found
-        //    if let existingEntity = anchorEntity {
-        //        scene.removeAnchor(existingEntity)
-        //    }
-
-        //    let anchor = AnchorEntity(worldTransform: hitTestResult.worldTransform)
-        //    placeEntityAtAnchor(anchor: anchor, converted3DPoint: converted3DPoint)
-        //} else {
-        //    print("No plane found to place the anchor")
-        //}
+        //scene.addAnchor(anchorGlobal!)
     }
 
     private func convertPointTo3D(point: CGPoint) -> SCNVector3 {
         let arPoint = self.unproject(point, viewport: frameRectGlobal)
         return SCNVector3(arPoint!.x, arPoint!.y, arPoint!.z)
     }
-
-    //private func placeEntityAtAnchor(anchor: AnchorEntity, converted3DPoint: SCNVector3) {
-    //    anchor.addChild(entity)
-
-    //    // Adjust the anchor's position based on the converted 3D point
-    //    anchor.position = converted3DPoint
-
-    //    scene.addAnchor(anchor)
-    //}
 }
